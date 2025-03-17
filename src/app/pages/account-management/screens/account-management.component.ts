@@ -47,7 +47,17 @@ export class AccountManagementComponent implements OnInit {
   readonly KeyAction = KeyAction;
 
   defaultFilterData = DefaultFilterData;
-  listAccount: IAccountInfo[] = [];
+  listAccount: IAccountInfo[] = [
+    {
+      id: 1,
+      username: 'loi',
+      fullName: 'string',
+      roleName: 'stringm',
+      departmentName: 'stringm',
+      organizationName: 'stringm',
+      status: 'stringm',
+    },
+  ];
   totalRecords = 0;
   currentActivePage = 1;
   page = DEFAULT_TABLE_PAGE;

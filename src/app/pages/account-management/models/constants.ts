@@ -103,6 +103,11 @@ export const FilterConfig: FilterFieldConfig[] = [
 
 export const ConfigHeader: ITableHeaderConfig[] = [
   {
+    key: 'stt',
+    name: 'STT',
+  },
+
+  {
     key: 'username',
     name: 'Mã cán bộ',
   },
@@ -126,6 +131,10 @@ export const ConfigHeader: ITableHeaderConfig[] = [
   {
     key: 'status',
     name: 'Trạng thái',
+  },
+  {
+    key: 'actions',
+    name: 'Thao tác',
   },
 ];
 //List Account config
